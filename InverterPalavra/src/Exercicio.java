@@ -6,10 +6,10 @@ public class Exercicio {
     	
     	Scanner teclado = new Scanner(System.in);
         System.out.print("Digite uma palavra -->");
-        String input = teclado.nextLine();
+        String palavra = teclado.nextLine();
         teclado.close();
 
-        String invertedString = inverterString(input);
+        String invertedString = inverterString(palavra);
         System.out.println("Palavra invertida: " + invertedString);
     }
 
