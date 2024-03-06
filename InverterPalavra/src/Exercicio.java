@@ -14,8 +14,8 @@ public class Exercicio {
     }
 
    
-    public static String inverterString(String str) {
-        char[] arrayPalavra = str.toCharArray();
+    public static String inverterString(String palavra) {
+        char[] arrayPalavra = palavra.toCharArray();
         int left = 0;
         int right = arrayPalavra.length - 1;
 
