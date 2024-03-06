@@ -10,9 +10,9 @@
         teclado.close();
 
         if (Fibonacci(num)) {
-            System.out.println(num + " pertence à sequência de Fibonacci.");
+            System.out.println(num + " é da à sequência de Fibonacci.");
         } else {
-            System.out.println(num + " não pertence à sequência de Fibonacci.");
+            System.out.println(num + " não é da à sequência de Fibonacci.");
         }
     }
 
